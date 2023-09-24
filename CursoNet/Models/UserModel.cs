@@ -1,6 +1,8 @@
-﻿namespace CursoNet.Models
+﻿namespace CursoNet.Models;
+
+public class UserModel
 {
-    public class UserModel
-    {
-    }
+    public string? Name { get; set; }
+
+    public string? Email { get; set; }
 }
