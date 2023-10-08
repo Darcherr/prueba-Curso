@@ -1,5 +1,6 @@
 ﻿using CursoNet.Models;
 using Microsoft.AspNetCore.Mvc;
+using ServiceCurso;
 using System.Diagnostics;
 
 namespace CursoNet.Controllers
@@ -15,6 +16,7 @@ namespace CursoNet.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 
